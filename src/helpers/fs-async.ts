@@ -1,26 +1,10 @@
 import fs from 'fs';
 
-
-const methods = [
-  'stat',
-  'readdir',
-  'access',
-  'unlink',
-  'rmdir',
-  'mkdir',
-  'rename',
-  'chmod',
-] as const;
-
-type FsAsync = {
-  [K in (typeof methods)[number]]: typeof fs[K] extends (...args: infer A) => any
-    ? (...args: A) => Promise<any>
-    : never;
-};
-
-const fsAsync = methods.reduce((obj, method) => {
-  (obj as any)[method] = Promise.promisify(fs[method]);
-  return obj;
-}, {} as FsAsync);
-
-export default fsAsync;
+export const stat = fs.promises.stat;
+export const readdir = fs.promises.readdir;
+export const access = fs.promises.access;
+export const unlink = fs.promises.unlink;
+export const rmdir = fs.promises.rmdir;
+export const mkdir = fs.promises.mkdir;
+export const rename = fs.promises.rename;
+export const chmod = fs.promises.chmod;

@@ -25,7 +25,7 @@ export interface FtpServerOptions {
   endOnProcessSignal?: boolean;
 }
 
-export default class FtpServer extends EventEmitter {
+export class FtpServer extends EventEmitter {
   options: FtpServerOptions & {
     log: Logger;
     url: string;

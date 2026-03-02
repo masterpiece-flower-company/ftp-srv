@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import uuid from 'uuid';
+import * as uuid from 'uuid';
 
 import { EventEmitter } from 'events';
 

@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import nodePath from 'path';
-import uuid from 'uuid';
+import * as uuid from 'uuid';
 
 import {
   createReadStream,

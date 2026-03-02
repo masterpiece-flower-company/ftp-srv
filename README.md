@@ -155,7 +155,7 @@ __Allowable values:__
     - Only one argument is passed in: a node [file stat](https://nodejs.org/api/fs.html#fs_class_fs_stats) object with additional file `name` parameter
 
 #### `log`
-A [bunyan logger](https://github.com/trentm/node-bunyan) instance. Created by default.
+A logger with a bunyan-like API (`child`, `trace`, `debug`, `info`, `warn`, `error`). Created by default using the built-in console-based logger.
 
 #### `timeout`
 Sets the timeout (in ms) after that an idle connection is closed by the server  

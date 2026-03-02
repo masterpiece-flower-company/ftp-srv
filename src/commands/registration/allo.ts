@@ -1,0 +1,11 @@
+import type { CommandDescriptor } from '../registry';
+
+export default {
+  directive: 'ALLO',
+  handler: function (this: any) {
+    return this.reply(202);
+  },
+  syntax: '{{cmd}}',
+  description: 'Allocate sufficient disk space to receive a file',
+  flags: { obsolete: true },
+} as CommandDescriptor;

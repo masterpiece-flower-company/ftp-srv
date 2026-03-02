@@ -7,7 +7,7 @@ import {
   createWriteStream,
   constants,
 } from 'fs';
-import fsAsync from './helpers/fs-async';
+import * as fsAsync from './helpers/fs-async';
 import * as errors from './errors';
 
 const UNIX_SEP_REGEX = /\//g;

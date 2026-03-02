@@ -1,4 +1,4 @@
-import Promise from 'bluebird';
+
 
 export default function (this: any, { log, command }: any = {}) {
   if (!this.fs) return this.reply(550, 'File system not instantiated');

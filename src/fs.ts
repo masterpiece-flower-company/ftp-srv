@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import nodePath from 'path';
 import uuid from 'uuid';
-import Promise from 'bluebird';
+
 import {
   createReadStream,
   createWriteStream,

@@ -1,4 +1,4 @@
-import Promise from 'bluebird';
+
 import type { CommandDescriptor } from '../registry';
 
 export default {

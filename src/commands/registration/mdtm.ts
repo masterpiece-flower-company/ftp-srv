@@ -1,4 +1,4 @@
-import Promise from 'bluebird';
+
 import moment from 'moment';
 import type { CommandDescriptor } from '../registry';
 

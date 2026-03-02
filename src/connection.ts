@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import uuid from 'uuid';
-import Promise from 'bluebird';
+
 import { EventEmitter } from 'events';
 
 import Connector from './connector/base';

@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import Promise from 'bluebird';
+
 import getFileStat from '../../helpers/file-stat';
 import type { CommandDescriptor } from '../registry';
 

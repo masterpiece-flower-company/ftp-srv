@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import Promise from 'bluebird';
+
 import type FtpConnection from '../connection';
 import type { Logger } from '../logger';
 import REGISTRY from './registry';

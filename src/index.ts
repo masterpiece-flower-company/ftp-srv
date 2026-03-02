@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import Promise from 'bluebird';
+
 import nodeUrl from 'url';
 import net from 'net';
 import tls from 'tls';

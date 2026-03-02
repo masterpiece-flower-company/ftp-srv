@@ -1,4 +1,4 @@
-import Promise from 'bluebird';
+
 import escapePath from '../../helpers/escape-path';
 import type { CommandDescriptor } from '../registry';
 

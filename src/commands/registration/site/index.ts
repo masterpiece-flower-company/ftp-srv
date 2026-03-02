@@ -1,4 +1,4 @@
-import Promise from 'bluebird';
+
 import _ from 'lodash';
 import registry from './registry';
 import type { CommandDescriptor } from '../registry';

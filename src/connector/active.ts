@@ -1,7 +1,7 @@
 import { Socket } from 'net';
 import tls from 'tls';
 import ip from 'neoip';
-import Promise from 'bluebird';
+
 import Connector from './base';
 import { SocketError } from '../errors';
 

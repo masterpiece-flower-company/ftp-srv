@@ -1,4 +1,4 @@
-import Promise from 'bluebird';
+
 import PassiveConnector from '../../connector/passive';
 import { isLocalIP } from '../../helpers/is-local';
 import type { CommandDescriptor } from '../registry';

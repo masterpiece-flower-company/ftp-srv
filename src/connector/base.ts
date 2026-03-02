@@ -1,4 +1,4 @@
-import Promise from 'bluebird';
+
 import * as errors from '../errors';
 import type { Logger } from '../logger';
 

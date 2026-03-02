@@ -1,5 +1,5 @@
 import fs from 'fs';
-import Promise from 'bluebird';
+
 
 const methods = [
   'stat',

@@ -1,4 +1,4 @@
-import Promise from 'bluebird';
+
 import stor from './stor';
 import type { CommandDescriptor } from '../registry';
 
